@@ -1,0 +1,10 @@
+selenium
+webdriver-manager
+pytest
+pytest-html
+allure-pytest
+pytest -v tests/test_study_bdd.py
+
+pytest tests/ --alluredir=reports/allure-results
+allure serve reports/allure-results
+

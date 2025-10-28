@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# Environment
+.venv/
+env/
+venv/
+*.env
+
+# VSCode
+.vscode/
+
+# Pytest cache
+.pytest_cache/
+.cache/
+
+# Allure Reports
+reports/allure-results/
+reports/allure-report/
+reports/screenshots/
+
+# Test videos & artifacts
+videos/
+screenshots/
+output/
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.bak
+*.swp
+nul/
