@@ -1,0 +1,11 @@
+| Username             | Password    | Expected_Message                                                     |
+|----------------------|-------------|----------------------------------------------------------------------|
+|                      |             | Vui lòng nhập đầy đủ: Tên đăng nhập/Email và Mật khẩu                |
+|                      | Vietba"123  | Vui lòng nhập đầy đủ: Tên đăng nhập/Email và Mật khẩu             |
+| user!@#              | Vietba"123  | Tên đăng nhập hoặc mật khẩu của bạn không chính xác. Hãy thử lại hoặc sử dụng chức năng quên mật khẩu để lấy lại mật khẩu.|
+| 0987654321           | Vietba"123  | Tên đăng nhập hoặc mật khẩu của bạn không chính xác. Hãy thử lại hoặc sử dụng chức năng quên mật khẩu để lấy lại mật khẩu.                                                |
+| abc                  | Vietba"123  | Vui lòng nhập đúng định dạng Tên đăng nhập/Email (tên đăng nhập phải tối thiểu 4 ký tự)                                                  |
+| user.domain.com      | Vietba"123  | Tên đăng nhập hoặc mật khẩu của bạn không chính xác. Hãy thử lại hoặc sử dụng chức năng quên mật khẩu để lấy lại mật khẩu.                                                   |
+| 12a10_phanthanhviet  |             | Vui lòng nhập đầy đủ: Tên đăng nhập/Email và Mật khẩu                |
+| 12a10_phanthanhviet  | abc1        | Tên đăng nhập hoặc mật khẩu của bạn không chính xác. Hãy thử lại hoặc sử dụng chức năng quên mật khẩu để lấy lại mật khẩu.           |
+| 12a10_phanthanhviet  | WrongPass1! | Tên đăng nhập hoặc mật khẩu của bạn không chính xác. Hãy thử lại hoặc sử dụng chức năng quên mật khẩu để lấy lại mật khẩu.                                                   |
